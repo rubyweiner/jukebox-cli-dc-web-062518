@@ -40,7 +40,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run 
+def run(response)
   help 
   puts "Please enter a command:"
   response = gets.strip 
